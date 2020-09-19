@@ -1,0 +1,16 @@
+print("Пройдіть невелике анкетування.")
+name = input("ФИО? ")
+age = int(input("Сколько вам лет? "))
+live = input("З якого ви міста? ")
+work = input("Ви навчаєтесь або працюєте? ")
+if (age <= 18):
+    asmoke = input("Чи курять у вашому унівеситеті, школі? ")
+smoke = input("Ваше відношення до куріння? ")
+print("Ось ваші выдповіді:")
+print(name)
+print(age)
+print(live)
+print(work)
+if(age < 18):
+    print(asmoke)
+print(smoke)
